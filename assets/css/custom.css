@@ -1,0 +1,127 @@
+/*Text shadow and inverse vignette on main page*/
+.head-main,.head-sub-main,#Parallax-two h1,#Parallax-two h4{
+    text-shadow: rgba(0,0,0,0.2) 0 1px 5px;
+    overflow: hidden;
+}
+@media screen and (max-width: 767px){
+    .head-main{
+        font-size: 90px !important;
+        margin-bottom: 0;
+    }
+    .head-sub-main{
+        font-size: 30px !important;
+    }
+}
+#home .col-md-12{
+    background-image: -webkit-radial-gradient(50% 50%, 60% 60%, rgba(0,0,0,0.4),rgba(0,0,0,0));
+    background-image: -moz-radial-gradient(50% 50%, 60% 60%, rgba(0,0,0,0.4),rgba(0,0,0,0));
+    background-image: radial-gradient(50% 50%, 60% 60%, rgba(0,0,0,0.4),rgba(0,0,0,0));
+}
+#Parallax-two .col-md-offset-2{
+    background-color: rgba(0,0,0,0.3);
+}
+.full{
+    margin-left:0;
+    margin-right:0;
+    padding-left:0;
+    padding-right:0;
+    width: 100%;
+}
+
+
+/* Scrolling interest list*/
+#about{
+    position:relative;
+    padding-bottom: 0;
+}
+
+
+#interest-scroller {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    right: 0;
+    bottom: 50px;
+    height: 280px;
+    overflow: hidden;
+}
+
+#interests h2 {
+    /* height: 250px; */
+    margin-bottom: 366px;
+}
+
+#interests .col-md-12 {
+    position: static;
+}
+
+#interest-scroller .interest-item {
+    left: 0;
+    top: 0;
+    position: absolute;
+    display: inline-block;
+}
+
+
+.parallax{
+    z-index: 1;
+    position: relative;
+}
+
+.vegas-background {
+    z-index: 0;
+}
+
+#Parallax-two {
+    color: white;
+    min-height: auto;
+}
+
+#Parallax-two h1 {
+    color: white;
+}
+
+#Parallax-two .col-md-offset-2 {
+    padding-top: 30px;
+    min-height: 300px;
+    padding-bottom: 30px;
+}
+
+button.navbar-toggle {
+    border: none;
+}
+
+.navbar-header {
+    border: none;
+}
+
+.navbar-collapse {
+    border: none;
+}
+
+#navbar{
+/*     background-color: #DF0000; */
+    border: none;
+    background-color: transparent;
+    background-image: -webkit-linear-gradient(rgba(0,0,0,0.4),transparent);
+    overflow: hidden;width: 100%;left: 0;right: 0;}
+#navbar > .container{
+    z-index:1;
+    position:relative;
+}
+#navbackground{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    transform: translate(0px, 300px);
+    background-color:#DF0000;
+    z-index:0;
+    left: 0;
+    right: 0;
+}
+
+
+a.navbar-brand {
+    padding-right: 15px;
+}
